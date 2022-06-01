@@ -11,7 +11,6 @@ from load_LIDC_data import LIDC_IDRI
 from probabilistic_unet import ProbabilisticUnet
 from utils import l2_regularisation
 from importlib.machinery import SourceFileLoader
-#from uncertainty import compute_entropy
 
 parser = argparse.ArgumentParser(description='Supervised uncertainty quantification')
 parser.add_argument('--output_ckpt_dir', type=str, default='./checkpoints/', help='checkpoint directory')
